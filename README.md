@@ -1,149 +1,125 @@
-<h1 align="center">Hi 👋, I'm Shemar Brown-Wright</h1>
-<h3 align="center">Senior Full Stack Software Engineer | Java | Spring Boot | React | Next.js</h3>
+<!-- HERO BANNER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=200&section=header&text=Shemar%20Brown-Wright&fontSize=38&fontColor=ffffff&animation=fadeIn" />
+</p>
 
 <p align="center">
-Building scalable applications and enterprise systems with a backend-first mindset.
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Senior+Full+Stack+Software+Engineer;Java+%7C+Spring+Boot+%7C+Distributed+Systems;React+%7C+Next.js+%7C+Flutter;Building+scalable+systems+that+run+in+production" />
 </p>
 
 ---
 
-## 🚀 About Me
+## ⚙️ What I Do
 
-- ☕ Backend-first full stack engineer with 3+ years of professional experience
-- 🏗️ Building scalable microservices and enterprise integrations
-- 🌐 Creating modern web applications with React and Next.js
-- 🔁 Focused on reliability, fault tolerance, and clean architecture
-- 📊 Experienced with large-scale data processing and batch workloads
-- 🚀 Passionate about building software that lasts
+I build systems that handle real-world complexity — not just CRUD apps.
+
+- Backend-heavy full-stack engineering (Java / Spring Boot / microservices)
+- Distributed systems, batch processing, and event-driven architectures
+- Payment systems, integrations, and enterprise workflows
+- Modern frontend applications with React and Next.js
+- Mobile and cross-platform apps with Flutter
+
+---
+
+## 🧠 System Design Mindset (FAANG-Style Framing)
+
+I approach engineering from a production systems perspective:
+
+- **Scalability first** → design for growth, not just current load
+- **Failure is expected** → systems must degrade gracefully, not collapse
+- **Event-driven thinking** → decouple services through async workflows where possible
+- **Data consistency vs availability trade-offs** → consciously choose based on domain (payments vs reporting)
+- **Observability by default** → logs, metrics, and traceability built into design, not added later
+- **Operational simplicity matters** → fewer moving parts beats clever complexity
+
+I don’t just build features — I design systems that survive production reality.
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Backend
+**Backend**  
+Java 21 • Spring Boot 3 • Hibernate • Maven
 
-![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3-green?style=for-the-badge&logo=springboot)
-![Hibernate](https://img.shields.io/badge/Hibernate-grey?style=for-the-badge&logo=hibernate)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven)
+**Frontend**  
+TypeScript • React • Next.js • TailwindCSS
 
-### Frontend
+**Mobile**  
+Flutter
 
-![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)
-![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=nextdotjs)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter)
+**Databases & Cloud**  
+MySQL • SQL Server • Supabase • Azure • Azure Service Bus
 
-### Databases & Storage
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure)
-
-### DevOps & Tools
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
-![Logback](https://img.shields.io/badge/Logback-grey?style=for-the-badge)
+**DevOps & Tools**  
+Docker • Git • GitHub • Logback (structured logging)
 
 ---
 
-## 📌 Featured Projects
+## 🚀 Selected Work (Case Studies)
 
-### 💳 Loan Service
+### 💳 Loan Service (Digicel)
+**Problem:** Loan processing workflows required reliable validation and integration across enterprise systems.  
 
-Backend workflows and integrations for loan-related operations.
+**Solution:** Built backend services using Spring Boot with clear service boundaries, validation layers, and integration adapters.  
 
-### ⚡ Payment Processing Platform
-
-Enterprise payment orchestration system supporting external integrations and transaction workflows.
-
-### 🔄 Delta Sync Processor
-
-Large-scale synchronization platform with checkpoint recovery and chunk-based processing.
-
-### 📬 Notification Service
-
-Factory-based framework supporting Email and SMS notifications.
-
-### 🌐 Personal Portfolio Website
-
-Built with Next.js, TypeScript, and Tailwind CSS.
-
-### 💰 Budget Management Application
-
-Full stack budgeting platform with goals and transaction management.
+**Impact:** Improved reliability and standardization of loan processing across internal systems.
 
 ---
 
-## 🌱 Currently Learning
+### ⚡ Payment Processing Platform (Digicel)
+**Problem:** Payments required orchestration across multiple external providers with inconsistent APIs and failure handling.  
 
-- Distributed Systems Design
-- Event-Driven Architecture
-- System Reliability Engineering
-- Observability & Structured Logging
-- Cloud-Native Development
+**Solution:** Designed microservice-based orchestration layer with routing logic, retry handling, and transactional tracking.  
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=CodedByShxm&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodedByShxm&layout=compact&theme=tokyonight"/>
-
-</p>
+**Impact:** Increased resilience of payment flows and simplified external integrations.
 
 ---
 
-## 🔥 GitHub Streak
+### 💰 Budgeting & Finance Platform
+**Problem:** Users needed structured budgeting and financial tracking beyond simple transaction logs.  
 
-<p align="center">
+**Solution:** Built full-stack system with goal tracking, categorization, and budgeting rules engine.  
 
-<img src="https://streak-stats.demolab.com?user=CodedByShxm&theme=tokyonight"/>
-
-</p>
-
----
-
-## 🏀 Beyond Code
-
-Outside of software engineering, I enjoy:
-
-- 🏀 Basketball and athletic development
-- 📷 Photography and visual storytelling
-- 🖥️ PC building and technology
-- 📚 Learning about software architecture and distributed systems
+**Impact:** Improved financial visibility and planning for end users.
 
 ---
 
-## 📫 Connect With Me
+### 🍰 Kris Kakes
+**Problem:** Needed structured execution of a small business idea combining product and brand development.  
 
-<p align="left">
+**Solution:** Built and operated a baking-focused venture covering branding, product iteration, and operations.  
 
-<a href="mailto:shemrs1@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+**Impact:** Real-world experience in product thinking, customer feedback loops, and execution.
 
-<a href="https://linkedin.com/in/shemar-brown-wright-586987196">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+---
 
-<a href="https://github.com/CodedByShxm">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
+## 📈 Currently Focused On
 
-</p>
+- Distributed systems at scale  
+- System design & reliability engineering (SRE)  
+- Event-driven architectures  
+- Cloud-native backend systems (Azure)  
+- Performance optimization & production readiness  
+
+---
+
+## 🏀 Beyond Engineering
+
+- Basketball & athletic development  
+- Photography & visual storytelling  
+- PC building & performance tuning  
+- Continuous learning in system design  
+
+---
+
+## 📫 Contact
+
+Email: **shemrs1@gmail.com**  
+LinkedIn: **linkedin.com/in/shemar-brown-wright-586987196**  
+GitHub: **github.com/CodedByShxm**
 
 ---
 
 <p align="center">
-
-> *"Building great software means creating systems that remain reliable, maintainable, and valuable as they evolve."*
-
+<em>Engineering systems that scale, recover, and remain maintainable under real production pressure.</em>
 </p>
