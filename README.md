@@ -1,145 +1,125 @@
-<h1 align="center">Hi 👋, I'm Shemar Brown-Wright</h1>
-<h3 align="center">Senior Full Stack Software Engineer | Java | Spring Boot | React | Next.js | Flutter</h3>
+<!-- HERO BANNER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=200&section=header&text=Shemar%20Brown-Wright&fontSize=38&fontColor=ffffff&animation=fadeIn" />
+</p>
 
 <p align="center">
-I design and build scalable backend systems and modern full-stack applications with a strong focus on reliability, performance, and clean architecture.
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=Senior+Full+Stack+Software+Engineer;Java+%7C+Spring+Boot+%7C+Distributed+Systems;React+%7C+Next.js+%7C+Flutter;Building+scalable+systems+that+run+in+production" />
 </p>
 
 ---
 
-## 🚀 About Me
+## ⚙️ What I Do
 
-- ☕ Senior full-stack engineer with 3+ years in enterprise systems
-- 🏗️ Built production-grade microservices for telecom and financial platforms
-- ⚙️ Strong backend foundation (Java 21, Spring Boot, distributed systems)
-- 🌐 Experienced building modern UIs with React, Next.js, and Flutter
-- 🔁 Designed systems for batch processing, sync workflows, and event-driven processing
-- 💳 Worked on payment processing, loan services, and external system integrations
-- ☁️ Experienced with Azure (including Service Bus) and cloud-based architectures
-- 📊 Focused on scalability, observability, and maintainable system design
+I build systems that handle real-world complexity — not just CRUD apps.
+
+- Backend-heavy full-stack engineering (Java / Spring Boot / microservices)
+- Distributed systems, batch processing, and event-driven architectures
+- Payment systems, integrations, and enterprise workflows
+- Modern frontend applications with React and Next.js
+- Mobile and cross-platform apps with Flutter
+
+---
+
+## 🧠 System Design Mindset (FAANG-Style Framing)
+
+I approach engineering from a production systems perspective:
+
+- **Scalability first** → design for growth, not just current load
+- **Failure is expected** → systems must degrade gracefully, not collapse
+- **Event-driven thinking** → decouple services through async workflows where possible
+- **Data consistency vs availability trade-offs** → consciously choose based on domain (payments vs reporting)
+- **Observability by default** → logs, metrics, and traceability built into design, not added later
+- **Operational simplicity matters** → fewer moving parts beats clever complexity
+
+I don’t just build features — I design systems that survive production reality.
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Backend
-![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3-green?style=for-the-badge&logo=springboot)
-![Hibernate](https://img.shields.io/badge/Hibernate-grey?style=for-the-badge&logo=hibernate)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven)
+**Backend**  
+Java 21 • Spring Boot 3 • Hibernate • Maven
 
-### Frontend / Mobile
-![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=for-the-badge&logo=typescript)
-![React](https://img.shields.io/badge/React-black?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=nextdotjs)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+**Frontend**  
+TypeScript • React • Next.js • TailwindCSS
 
-### Databases & Cloud
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure)
-![Azure Service Bus](https://img.shields.io/badge/Service_Bus-0078D4?style=for-the-badge)
+**Mobile**  
+Flutter
 
-### DevOps & Engineering Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
-![Logback](https://img.shields.io/badge/Logging-Structured-grey?style=for-the-badge)
+**Databases & Cloud**  
+MySQL • SQL Server • Supabase • Azure • Azure Service Bus
+
+**DevOps & Tools**  
+Docker • Git • GitHub • Logback (structured logging)
 
 ---
 
-## 📌 Featured Work
+## 🚀 Selected Work (Case Studies)
 
 ### 💳 Loan Service (Digicel)
-Designed and implemented backend services for loan workflows, validations, and integrations with enterprise systems.
+**Problem:** Loan processing workflows required reliable validation and integration across enterprise systems.  
+
+**Solution:** Built backend services using Spring Boot with clear service boundaries, validation layers, and integration adapters.  
+
+**Impact:** Improved reliability and standardization of loan processing across internal systems.
+
+---
 
 ### ⚡ Payment Processing Platform (Digicel)
-Microservice-based payment orchestration system handling routing, external integrations, and transaction lifecycle management.
+**Problem:** Payments required orchestration across multiple external providers with inconsistent APIs and failure handling.  
 
-### 💰 Budgeting & Finance App
-Full-stack personal finance application with goal tracking, budgeting rules, and transaction categorization.
+**Solution:** Designed microservice-based orchestration layer with routing logic, retry handling, and transactional tracking.  
 
-### 🌐 Portfolio Website
-Modern developer portfolio built with Next.js, TypeScript, and Tailwind CSS.
+**Impact:** Increased resilience of payment flows and simplified external integrations.
+
+---
+
+### 💰 Budgeting & Finance Platform
+**Problem:** Users needed structured budgeting and financial tracking beyond simple transaction logs.  
+
+**Solution:** Built full-stack system with goal tracking, categorization, and budgeting rules engine.  
+
+**Impact:** Improved financial visibility and planning for end users.
+
+---
 
 ### 🍰 Kris Kakes
-Creative baking and product-focused venture blending branding, operations, and small business execution.
+**Problem:** Needed structured execution of a small business idea combining product and brand development.  
+
+**Solution:** Built and operated a baking-focused venture covering branding, product iteration, and operations.  
+
+**Impact:** Real-world experience in product thinking, customer feedback loops, and execution.
 
 ---
 
-## 🧠 Architecture & Focus Areas
-
-- Microservices design & service decomposition  
-- Event-driven architectures (Azure Service Bus)  
-- Batch processing & data synchronization systems  
-- Payment systems & transactional integrity  
-- API design & integration patterns  
-- Observability (logging, tracing, structured diagnostics)  
-- Clean architecture & maintainable codebases  
-
----
-
-## 🌱 Currently Exploring
+## 📈 Currently Focused On
 
 - Distributed systems at scale  
-- System design & reliability engineering (SRE concepts)  
-- Advanced event-driven patterns  
-- Cloud-native architecture on Azure  
-- Performance tuning for backend systems  
+- System design & reliability engineering (SRE)  
+- Event-driven architectures  
+- Cloud-native backend systems (Azure)  
+- Performance optimization & production readiness  
 
 ---
 
-## 📊 GitHub Stats
+## 🏀 Beyond Engineering
 
-<p align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=CodedByShxm&show_icons=true&theme=tokyonight"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CodedByShxm&layout=compact&theme=tokyonight"/>
-</p>
-
----
-
-## 🔥 Streak Stats
-
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=CodedByShxm&theme=tokyonight"/>
-</p>
+- Basketball & athletic development  
+- Photography & visual storytelling  
+- PC building & performance tuning  
+- Continuous learning in system design  
 
 ---
 
-## 🏀 Beyond Code
+## 📫 Contact
 
-Outside of engineering:
-
-- 🏀 Basketball & athletic development (performance-focused training mindset)
-- 📷 Photography & visual storytelling
-- 🖥️ PC building & hardware optimization
-- 📚 System design & architecture learning
-- 💪 Continuous self-improvement through structured training
-
----
-
-## 📫 Connect With Me
-
-<p align="left">
-
-<a href="mailto:shemrs1@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://linkedin.com/in/shemar-brown-wright-586987196">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://github.com/CodedByShxm">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
-</a>
-
-</p>
+Email: **shemrs1@gmail.com**  
+LinkedIn: **linkedin.com/in/shemar-brown-wright-586987196**  
+GitHub: **github.com/CodedByShxm**
 
 ---
 
 <p align="center">
-<em>Building systems that are reliable, scalable, and designed to last beyond initial deployment.</em>
+<em>Engineering systems that scale, recover, and remain maintainable under real production pressure.</em>
 </p>
